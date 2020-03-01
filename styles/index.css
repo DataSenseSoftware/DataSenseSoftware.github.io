@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
+    color: white;
 }
 
 /* .footer {
@@ -20,6 +21,11 @@ body {
     color: white;
     text-align: center;
   } */
+
+  .container-wrapper{
+      background-color: #000;
+  }
+
   .main-index {
       height: 100vh;
   }
@@ -83,7 +89,15 @@ body {
   .footer {
       height: 200px;
       background-color: #040f31;
-      color: white;
+      color: #fff;
       padding-top: 30px;
       padding-bottom: 30px;
+  }
+
+  .bg-dark-custom {
+    background-color: #000;
+  }
+
+  .nav-link, .nav-brand, .navbar-brand {
+      color: #fff!important;
   }
