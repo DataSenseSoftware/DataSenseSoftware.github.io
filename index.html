@@ -4,18 +4,47 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <!-- Royal Preloader CSS -->
+	<link href="css/royal_preloader.css" rel="stylesheet">
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!-- Parallax File -->
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+
+	<!-- Royal Preloader -->
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+		    mode:           'number',
+		    showProgress:   false,
+		    background:     '#1d1d1d'
+		});
+	</script>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/index.css">
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/ionicons.min.css" rel="stylesheet">
+	<link href="styles/pe-icon-7-stroke.css" rel="stylesheet">
+	<link href="styles/magnific-popup.css" rel="stylesheet">
+	<link href="styles/logoiconfont.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" title="main-css">
+    <link href="styles/index.css" rel="stylesheet" title="main-css">
 
-    <title>DataSense Software</title>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </head>
+	<!-- Style Switcher / remove for production -->
+	<link href="styles/style-switcher.css" rel="stylesheet">
+	
+	<!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/blue.css" title="blue">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/green.css" title="green">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/orange.css" title="orange">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/red.css" title="red">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/orangelight.css" title="orangelight">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/pinkish.css" title="pinkish">
+	<link rel="alternate stylesheet" type="text/css" href="styles/colors/seagul.css" title="seagul">
+	<link rel="alternate stylesheet" type="text/css" href="styles/base-light.css" title="base-light">
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark-custom">
         <a class="navbar-brand" href="#">DataSense Software</a>
@@ -34,39 +63,54 @@
         </div>
     </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Begin Jumbotron -->
+	<div class="jumbotron jumbotron-main" id="home">
+		<div id="particles-js"></div><!-- /.particles div -->
+		<div class="container center-vertically-holder">
+			<div class="center-vertically">
+				<div class="row">
+				    <div class="col text-center">
+    					<h1 class="scaleReveal" style="font-size:72pt">
+    						<strong>Know What's Coming</strong>
+    					</h1>
+    					<hr class="bottomReveal">
+    					<p class="bottomReveal" style="font-size: 20pt">ML/AI forecasting made <b>painfully easy</b>.</p>
+    				</div><!-- /.column -->
+				</div>
+			</div><!-- /.vertical center -->
+		</div><!-- /.container -->
+	</div>
+	<!-- End Jumbotron -->
+
     <div class="container-wrapper">
         <div class="container main-index">
-            <div style="padding-top: 250px;">
+            <div >
                 <div class="vertical-align">
                     <div class="row">
-                        <div class="col-sm header-title">
-                            Know What's Coming.
+                        <div class="col-sm info-title">
+                            DataSense Software lets your company look ahead, not behind.
                         </div>
                     </div>
                 </div>
+                <br/>
                 <div class="vertical-align">
                     <div class="row">
-                        <div class="col-sm header-sub">
-                            The world's <b>simplest</b> machine learning forecasting platform.
+                        <div class="col-sm info-sub">
+                            DataSense deploys cutting edge Machine Learning and forecasting strategies. We give Business Analysts the power of a full Data Science team with our automated Artificial Intelligence Engine. Using a scalable infrastructure, our clients extract actionable results for optimizing business processes at a fraction of the standard time and cost.
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div class="vertical-align">
+                    <div class="row">
+                        <div class="col-sm info-sub">
+                            Want to learn more? Send us an email at team@datasensesoftware.com
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col-sm header-sub">
-                    DataSense makes machine learning <b>simple</b>.
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm description">
-                    DataSense Software deploys cutting edge Machine Learning and forecasting strategies. We give Business Analysts the power of a full Data Science team with our automated Artificial Intelligence Engine. Using a scalable infrastructure, clients extract actionable results for optimizing business processes at a fraction of the time and cost.
-                </div>
-            </div> -->
         </div>
     </div>
     <div class="footer">
@@ -92,6 +136,30 @@
             </div>
         </div>
     </div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+	<script type="text/javascript" src="assets/js/particlesRun.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
+	<script type="text/javascript" src="assets/js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>  
+	<script type="text/javascript">
+		/* ---- Counter (our count) ---- */
+		$('#ourcount').one('inview', function(event, isInView) {
+			if (isInView) {
+				$('.timer').countTo({speed: 3000});
+			}
+		});
+	</script>
+	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="assets/js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="assets/js/style-switcher.js"></script><!-- Remove for production -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
   </body>
   
 </html>
