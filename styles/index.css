@@ -23,11 +23,11 @@ body {
   } */
 
   .container-wrapper{
-      background-color: #fefefe;
+      background-color: #fefefe; /* Controls background color of main page */
   }
 
   #particles-js {
-      background: #000;
+      background: #000; /* Controls background color of moving particles on home page */
       padding-top: -50px;
       color: white;
 
@@ -40,13 +40,13 @@ body {
   .main-index {
       padding-top: 80px;
       padding-bottom: 80px;
-      background-color: #fefefe!important;
+      background-color: #fefefe!important; /* Controls background color of main page */
   }
 
   .main-about {
       padding-top: 50px;
-      height:100%;
-      background-color: #fefefe!important;
+      /* height:100%; */
+      background-color: #fefefe!important; /* Controls background color of about page */
   }
 
   .header-title {
@@ -114,10 +114,9 @@ body {
   }
 
   .footer {
-      height: 200px;
       font-size: 0.9em;;
       background-color: #000;
-      color: #fff;
+      color: #fff; /* Controls color of text in footer */
       padding-top: 30px;
       padding-bottom: 30px;
   }
@@ -127,12 +126,12 @@ body {
   }
 
   .nav-link, .nav-brand, .navbar-brand {
-      color: #fff!important;
+      color: #fff!important; /* Controls color of text in navbar links */
       float: left;
   }
 
   .navbar-toggler {
-    background-color: #dedede!important;
+    background-color: #dedede!important; /* Controls the color of the toggler when the navbar is collapsed on mobile*/
   }
 
   .navbar {
@@ -142,4 +141,35 @@ body {
   .navbar-toggler.collapsed {
       float: right;
 
+  }
+
+  @media (min-width: 767px)  {
+    .navbar-collapse.collapse {
+        display: flex!important;
+    }
+
+    #hiddenUL {
+        display: none;
+    }
+
+    .navbar-nav.mr-auto {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .footer-item {
+        padding-top: 20px;
+    }
+}
+
+  .navbar-text {
+      margin-top: 0px!important;
+      margin-bottom: 0px!important;
   }
