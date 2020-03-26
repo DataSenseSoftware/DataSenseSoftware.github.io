@@ -19,7 +19,7 @@ body {
     /* font-size: 1rem; */
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: rgb(22, 41, 53);
     text-align: left;
     padding-top: 0px!important;
 }
@@ -39,7 +39,7 @@ body {
   }
 
   #particles-js {
-      background: rgb(51, 62, 80); /* Controls background color of moving particles on home page */
+      background: rgb(22, 41, 53); /* Controls background color of moving particles on home page */
       padding-top: -50px;
       color: white;
 
@@ -100,6 +100,12 @@ body {
       width: 200px;
       border-radius: 50%;
   }
+  .logo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 250px;
+}
 
   .about-name {
       font-size: 1.3em;
@@ -127,14 +133,14 @@ body {
 
   .footer {
       font-size: 0.9em;;
-      background-color: rgb(51, 62, 80); /* Controls color of footer */
+      background-color: rgb(22, 41, 53); /* Controls color of footer */
       color: #fff; /* Controls color of text in footer */
       padding-top: 30px;
       padding-bottom: 30px;
   }
 
   .bg-dark-custom {
-    background-color: rgb(51, 62, 80); /* Controls color of top nav bar */
+    background-color: rgb(22, 41, 53); /* Controls color of top nav bar */
   }
 
   .nav-link, .nav-brand, .navbar-brand {
