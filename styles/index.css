@@ -45,8 +45,13 @@ body {
 
   }
 
+  .text-center {
+      margin-top: -80px;
+  }
+
   .jumbotron {
       padding: 0!important;
+      height: 80%!important;
   }
 
   .main-index {
@@ -104,7 +109,7 @@ body {
     height: auto;
     width: auto;
     max-height: 100px;
-    max-width: 250px;
+    /* max-width: 1000px; */
 }
 
   .about-name {
@@ -150,19 +155,51 @@ body {
 
   .navbar-toggler {
     background-color: #dedede!important; /* Controls the color of the toggler when the navbar is collapsed on mobile*/
-  }
+}
 
   .navbar {
-      justify-content: start!important;
+      justify-content: space-between!important;
+      overflow: hidden;
   }
 
-  .navbar-toggler.collapsed {
+  .navbar-brand{
+      float:left;
+  }
+
+  .navbar-toggler {
       float: right;
-
+      margin-right: 20px;
   }
 
-  @media (min-width: 767px)  {
-    .navbar-collapse.collapse {
+  @media (max-width: 992px){
+    .navbar-collapse.collapse:not(.show) {
+        display: none!important;
+    }
+
+    
+    /* .logo {
+        width: 10px;
+    } */
+  }
+
+  @media (max-width: 576px){
+      .logo {
+          width: 200px;
+      }
+
+      .jumbotron {
+          height: 100%!important;
+      }
+
+      .text-center {
+        margin-top: -100px;
+    }
+  }
+
+
+  @media (min-width: 992px)  {
+
+    .navbar-collapse.collapse:not(.show) {
         display: flex!important;
     }
 
