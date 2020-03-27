@@ -37,6 +37,10 @@ body {
   .container-wrapper{
       background-color: #fefefe; /* Controls background color of main page */
   }
+  
+  .container-team{
+      height: 100%;
+  }
 
   #particles-js {
       background: rgb(22, 41, 53); /* Controls background color of moving particles on home page */
