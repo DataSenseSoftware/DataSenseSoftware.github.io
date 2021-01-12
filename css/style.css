@@ -4562,7 +4562,7 @@ p.artficial:before{
 }
 .compare-box-right {
     background: rgba(1, 7, 53, 0.1);
-    border-bottom-right-radius: 80px;
+    border-bottom-right-radius: 0px;
     -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.4);
     background: linear-gradient(to right, #14aff5, #23d0ec);
